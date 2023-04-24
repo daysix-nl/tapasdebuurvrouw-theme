@@ -16,6 +16,4 @@
  */
  ?>
 
-<?php
-header(‘Location: /afrekenen’); /* Dit stuurt de bezoeker naar www.voorbeeld.nl */
-?>
+<?php include get_template_directory() . '/componenten/wc_cart.php'; ?>
