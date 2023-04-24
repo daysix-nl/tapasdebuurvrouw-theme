@@ -16,4 +16,8 @@
  */
  ?>
 
-<?php include get_template_directory() . '/componenten/wc_cart.php'; ?>
+<?php
+header( "Status: 301 Moved Permanently" );
+header( "Location: https://test.tapasdebuurvrouw.nl/afrekenen" );
+exit(0); // dit is optioneel, maar wordt wel aangeraden. Hiermee voorkom je onnodige output
+?>
