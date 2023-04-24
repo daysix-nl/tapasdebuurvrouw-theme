@@ -43,7 +43,7 @@ if ( is_wc_endpoint_url( 'order-received' ) ) {
                 <span></span>
             </button>
              <?php if ( ! WC()->cart->get_cart_contents_count() == 0 ) { ?>
-             <a href="/winkelwagen" class="button-cart text-white relative h-50 mb-3">
+             <a href="/afrekenen" class="button-cart text-white relative h-50 mb-3">
                 <?php include get_template_directory() . '/img/icons/bord.php'; ?>
                 <small class="absolute top-[0px] right-[9px] text-10 text-center w-[15px]"><?php echo WC()->cart->get_cart_contents_count(); ?></small>
             </a>
