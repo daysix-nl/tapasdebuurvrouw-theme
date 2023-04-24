@@ -9,22 +9,26 @@ html :where(.editor-styles-wrapper) p {
 .acf-block-preview {
 
   .mySwiper-3D .swiper-slide {
-     opacity: 1;
-}
+    opacity: 1;
+  }
 
   .swiper-overflow-container {
     overflow-x: hidden;
+
     .container {
       overflow: visible;
     }
+
     .mySwiperGallery {
       overflow: visible;
     }
+
     .swiper-slide {
       width: 375px;
       margin-right: 30px;
     }
   }
+
   .mySwiper {
     .swiper-wrapper {
       width: auto !important;
@@ -43,6 +47,7 @@ html :where(.editor-styles-wrapper) p {
 
   .swiper {
     padding: 0;
+
     .swiper-wrapper {
       display: flex;
       flex-flow: row nowrap;
@@ -86,12 +91,14 @@ html :where(.wp-block) {
 
 .acf-block-preview {
   border-bottom: 2px dotted #76ff00;
+
   .swiperhero {
     .swiper-wrapper {
       width: 100%;
       display: flex;
       justify-content: space-between;
     }
+
     .swiper-slide {
       flex-shrink: 0;
       width: unset;
@@ -101,22 +108,27 @@ html :where(.wp-block) {
       margin-right: 90px;
     }
   }
+
   .tabs-swiper {
     .swiper-wrapper {
       width: 100%;
     }
   }
+
   .tabs-swiper-second {
     .swiper-wrapper {
       width: 100%;
     }
+
     .swiper-slide {
       opacity: 1 !important;
+
       &.swiper-slide-active {
         transition: 0.4s;
         opacity: 1 !important;
       }
     }
+
     ul {
       list-style: disc;
       padding: 0;
@@ -126,55 +138,65 @@ html :where(.wp-block) {
 
 .is-root-container.block-editor-block-list__layout {
   padding-bottom: 120px;
+
   .card-whoweare {
+
     h2.text-zwart,
     h3.text-zwart,
     p.text-zwart {
       color: #000 !important;
       transition: 1s;
     }
+
     h2.text-white,
     h3.text-white,
     p.text-white {
       color: #fff !important;
       transition: 1s;
     }
+
     h2.text-diepgrijs,
     h3.text-diepgrijs,
     p.text-diepgrijs {
       color: #fff !important;
       transition: 1s;
     }
+
     h2.text-diepgrijs,
     h3.text-diepgrijs,
     p.text-diepgrijs {
       color: #202020 !important;
       transition: 1s;
     }
+
     h2.text-grijs,
     h3.text-grijs,
     p.text-grijs {
       color: #323232 !important;
       transition: 1s;
     }
+
     h2.text-creme,
     h3.text-creme,
     p.text-creme {
       color: #DAD4CB !important;
       transition: 1s;
     }
+
     h2.text-lightcreme,
     h3.text-lightcreme,
     p.text-lightcreme {
       color: #E9E4DB !important;
       transition: 1s;
     }
+
     h2.text-oranje,
     h3.text-oranje,
     p.text-oranje {
       color: #E87A2E !important;
       transition: 1s;
     }
+
     h2.text-purple,
     h3.text-purple,
     p.text-purple {
@@ -182,6 +204,7 @@ html :where(.wp-block) {
       transition: 1s;
     }
   }
+
   .p-button.bg-creme.block {
     background-color: #e87a2e !important;
     color: #fff !important;
@@ -193,6 +216,7 @@ html :where(.wp-block) {
       color: #000 !important;
     }
   }
+
   .container {
     max-width: 100%;
   }
@@ -225,16 +249,20 @@ table.fixed {
 .wp-list-table.widefat.fixed.striped.table-view-list {
   position: inherit !important;
 }
+
 .styling-block {
   display: none;
 }
+
 .acf-block-preview {
   ul {
     padding: 0;
   }
+
   .styling-block {
     display: block;
   }
+
   .mySwiperScroll {
     .swiper-wrapper {
       width: 100%;
@@ -258,7 +286,7 @@ table.fixed {
   height: 24px;
   width: 100% !important;
   display: none;
-  padding: 0!important;
+  padding: 0 !important;
   background: #1e1e1e;
   color: #fff;
 }

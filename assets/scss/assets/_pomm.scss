@@ -1,59 +1,66 @@
-.pomm-innit {
+.page {
+    .pomm-innit {
 
 
 
-.ppom-wrapper .form-control {
-    display: block;
-    width: 100%;
-    padding: 8px 15px;;
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 1.5;
-    color: #fff;
-    background-color: #272626;
-    background-clip: padding-box;
-    border: 0px solid #ced4da;
-    border-radius: 1rem;
-    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
-    box-shadow: inset 0 3px 6px rgb(0 0 0 / 20%);
-}
+        .ppom-wrapper .form-control {
+            display: block;
+            width: 100%;
+            padding: 8px 15px;
+            ;
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 1.5;
+            color: #fff;
+            background-color: #272626;
+            background-clip: padding-box;
+            border: 0px solid #ced4da;
+            border-radius: 1rem;
+            transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+            box-shadow: inset 0 3px 6px rgb(0 0 0 / 20%);
+        }
 
-.ppom-wrapper .form-control:focus {
-    color: #fff;
-    background-color: #272626;
-    border-color: #80bdff;
-    outline: 0;
-    box-shadow: inset 0 3px 6px rgb(0 0 0 / 20%);
-}
+        .ppom-wrapper .form-control:focus {
+            color: #fff;
+            background-color: #272626;
+            border-color: #80bdff;
+            outline: 0;
+            box-shadow: inset 0 3px 6px rgb(0 0 0 / 20%);
+        }
 
-.form-control-label {
-    color: #fff;
-    font-family: volte_regular,sans-serif;
-}
+        .form-control-label {
+            color: #fff;
+            font-family: volte_regular, sans-serif;
+        }
 
-.ppom-option-total-price {
-    display:none;
-}
+        .ppom-option-total-price {
+            display: none;
+        }
 
-.ppom-wrapper .table th, .ppom-wrapper .table td {
-    border-top: 0px solid #272626;
-}
-.ppom-label-item {
-    display:none;
-}
-.ppom-price-item {
-    font-family: typewcond_bold,sans-serif;
-    color: #fff;
-    font-size: 20px;
-    text-align: left;
-}
-.show_description {
-    display: flex;
-    color: rgb(89, 89, 89) !important;
-    line-height: 5px;
-    padding-bottom: 8px;
-    padding-left: 0px !important;
-    font-family: volte_regular,sans-serif !important;
-}
+        .ppom-wrapper .table th,
+        .ppom-wrapper .table td {
+            border-top: 0px solid #272626;
+        }
 
+        .ppom-label-item {
+            display: none;
+        }
+
+        .ppom-price-item {
+            font-family: typewcond_bold, sans-serif;
+            color: #fff;
+            font-size: 20px;
+            text-align: left;
+        }
+
+        .show_description {
+            display: flex;
+            color: rgb(89, 89, 89) !important;
+            line-height: 5px;
+            padding-bottom: 8px;
+            padding-left: 0px !important;
+            font-family: volte_regular, sans-serif !important;
+        }
+
+    }
 }
