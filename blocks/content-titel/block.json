@@ -1,0 +1,16 @@
+{
+  "name": "content-titel",
+  "title": "Content - Titel",
+  "description": "",
+  "category": "content",
+  "icon": "insert",
+  "keywords": ["hero", "home"],
+  "supports": {
+    "mode": false,
+    "jsx": true
+  },
+  "acf": {
+    "mode": "preview",
+    "renderTemplate": "content-titel.php"
+  }
+}

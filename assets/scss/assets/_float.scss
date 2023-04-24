@@ -1,0 +1,22 @@
+.relative-float {
+    position: relative;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    min-height: 100%;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+}
+
+.float-content {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 180px;
+    padding-bottom: 0px;
+}

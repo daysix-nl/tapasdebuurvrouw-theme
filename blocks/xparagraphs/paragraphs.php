@@ -1,0 +1,1 @@
+<p class="<?php the_field('text-color'); ?> <?php the_field('text-align'); ?> <?php the_field('padding-inner'); ?> text-16 leading-26 font-volteregular"><?php the_field('text'); ?></p>

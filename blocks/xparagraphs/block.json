@@ -1,0 +1,18 @@
+{
+    "name": "Paragraphs",
+    "title": "Paragraphs",
+    "description": "A custom hero block.",
+    "category": "Text",
+    "script": "paragraphs",
+    "editorScript": "paragraphs",
+    "style": [ "file:./index.css" ],
+    "icon": "admin-comments",
+    "keywords": ["hero", "home"],
+    "supports": {
+        "align": false
+    },
+    "acf": {
+        "mode": "preview",
+        "renderTemplate": "paragraphs.php"
+    }
+}

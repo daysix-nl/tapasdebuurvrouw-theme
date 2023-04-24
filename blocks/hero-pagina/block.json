@@ -1,0 +1,14 @@
+{
+    "name": "hero-pagina",
+    "title": "Hero - Pagina",
+    "description": "",
+    "category": "hero",
+    "editorScript": "image",
+    "style": [ "file:./index.css" ],
+    "icon": "insert",
+    "keywords": ["hero", "home"],
+    "acf": {
+        "mode": "preview",
+        "renderTemplate": "hero-pagina.php"
+    }
+}

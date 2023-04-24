@@ -1,0 +1,25 @@
+.card-item:hover .card-item-bg {
+    transform: scale(1.10);
+}
+
+.card-item .card-item-content-first {
+    transform: translate(0px, 20px);
+}
+
+.card-item:hover .card-item-content-first {
+    transform: translate(0px, 0px);
+}
+
+.card-item .card-item-content-second {
+    opacity: 0;
+    transform: translate(0px, 20px);
+}
+
+.card-item:hover .card-item-content-second {
+    opacity: 1;
+    transform: translate(0px, 0px);
+}
+
+.card-item-overlay {
+    background: linear-gradient(180deg, rgba(25,25,25,0) 0%, #000 100%);
+}

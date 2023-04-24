@@ -1,0 +1,1 @@
+<h1 id="down" class="<?php the_field('text-color'); ?> <?php the_field('text-align'); ?> <?php the_field('padding-inner'); ?> text-80 leading-89"><?php the_field('title'); ?></h1>

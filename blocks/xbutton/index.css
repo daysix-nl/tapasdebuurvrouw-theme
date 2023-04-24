@@ -1,0 +1,43 @@
+.button-card-navigation {
+  position: absolute;
+  background: #fab72d;
+  bottom: 0;
+  right: 30px;
+  left: 30px;
+  border-radius: 20px;
+  padding: 2px;
+  color: #fff;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  font-size: 18px;
+}
+
+.button-card-navigation:hover {
+    position: absolute;
+    background: #ffaa00;
+    transition: 0.3s;
+    color: #000;
+  }
+  
+
+.overlay-card {
+  background: rgb(255, 255, 255);
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0) 0%,
+    rgba(0, 0, 0, 1) 100%
+  );
+  width: 100%;
+  height: 70%;
+  bottom: 0;
+  position: absolute;
+}
+
+.card-scale {
+  transition: 0.3s;
+}
+.card-scale:hover {
+  scale: 1.02;
+  transition: 0.3s;
+}

@@ -1,0 +1,17 @@
+{
+  "name": "content-tekstafbeelding",
+  "title": "Content - Tekst met afbeelding",
+  "description": "",
+  "category": "content",
+  "style": ["file:./index.css"],
+  "icon": "insert",
+  "keywords": ["hero", "home"],
+  "supports": {
+    "mode": false,
+    "jsx": true
+  },
+  "acf": {
+    "mode": "preview",
+    "renderTemplate": "content-tekstafbeelding.php"
+  }
+}

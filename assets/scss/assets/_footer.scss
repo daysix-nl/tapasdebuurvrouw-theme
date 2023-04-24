@@ -1,0 +1,15 @@
+.footer-arrow {
+  a {
+    p {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+      &::before {
+        content: url("/wp-content/themes/day-six/img/icons/arrow-footer.svg");
+        display: block;
+        width: 10px;
+        margin-right: 10px;
+      }
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "cards-navigatie",
+  "title": "Cards - Navigatie",
+  "description": "",
+  "category": "cards",
+  "style": ["file:./index.css"],
+  "icon": "insert",
+  "keywords": ["card", "home"],
+  "acf": {
+    "mode": "preview",
+    "renderTemplate": "cards-navigatie.php"
+  }
+}

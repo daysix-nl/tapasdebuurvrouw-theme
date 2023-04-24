@@ -1,0 +1,16 @@
+{
+    "name": "list",
+    "title": "List",
+    "description": "A custom list block.",
+    "category": "Text",
+    "style": [ "file:./index.css" ],
+    "icon": "admin-comments",
+    "keywords": ["hero", "home"],
+    "supports": {
+        "align": false
+    },
+    "acf": {
+        "mode": "preview",
+        "renderTemplate": "list.php"
+    }
+}

@@ -1,0 +1,16 @@
+{
+  "name": "contact",
+  "title": "Content - Contact",
+  "description": "",
+  "category": "content",
+  "icon": "insert",
+  "keywords": ["contact"],
+  "supports": {
+    "mode": false,
+    "jsx": true
+  },
+  "acf": {
+    "mode": "preview",
+    "renderTemplate": "contact.php"
+  }
+}

@@ -1,0 +1,1 @@
+<h1 class="<?php the_field('text-color'); ?> <?php the_field('text-align'); ?> <?php the_field('padding-inner'); ?> <?php echo (get_field('font-size')) ? 'text-80 leading-89':'text-50 leading-45 font-bold'; ?> "><?php the_field('title'); ?></h1>

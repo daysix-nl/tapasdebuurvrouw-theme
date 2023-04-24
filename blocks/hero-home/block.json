@@ -1,0 +1,17 @@
+{
+  "name": "hero-home",
+  "title": "Hero - Home",
+  "description": "",
+  "category": "hero",
+  "icon": "insert",
+  "style": [ "file:./index.css" ],
+  "keywords": ["hero", "home"],
+  "supports": {
+    "mode": false,
+    "jsx": true
+  },
+  "acf": {
+    "mode": "preview",
+    "renderTemplate": "hero-home.php"
+  }
+}

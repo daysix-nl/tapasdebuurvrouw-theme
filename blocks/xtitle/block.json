@@ -1,0 +1,16 @@
+{
+    "name": "title",
+    "title": "Title",
+    "description": "A custom hero block.",
+    "category": "Text",
+    "style": [ "file:./index.css" ],
+    "icon": "admin-comments",
+    "keywords": ["hero", "home"],
+    "supports": {
+        "align": false
+    },
+    "acf": {
+        "mode": "preview",
+        "renderTemplate": "title.php"
+    }
+}
