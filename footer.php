@@ -24,7 +24,7 @@ if ( is_wc_endpoint_url( 'order-received' ) ) {
                 </a>
             </div>
             <div class="col-span-5 sm:col-span-2 xl:col-span-1">
-              <a href="https://www.google.com/maps/place/Tapas+de+Buurvrouw/@52.2050401,4.8746315,15z/data=!4m6!3m5!1s0x47c67438059ada8d:0x2940e198a1c6c2aa!8m2!3d52.2049086!4d4.8796955!16s%2Fg%2F1td1_gqk" target="_blank"><img class="rounded-3xl object-cover w-full h-full min-h-[150px] xl:min-h-min" src="/wp-content/themes/day-six/img/local/kaart.jpg" alt=""></a>
+              <a href="https://www.google.com/maps/place/Tapas+de+Buurvrouw/@52.2050401,4.8746315,15z/data=!4m6!3m5!1s0x47c67438059ada8d:0x2940e198a1c6c2aa!8m2!3d52.2049086!4d4.8796955!16s%2Fg%2F1td1_gqk" target="_blank"><img class="rounded-3xl object-cover w-full h-full min-h-[150px] xl:min-h-min" src="/wp-content/themes/tapasdebuurvrouw-theme/img/local/kaart.jpg" alt=""></a>
             </div>
             <div class="col-span-5 sm:col-span-2 md:col-span-2 xl:col-span-1">
                 <h3 class="text-white font-typebold text-22 mb-1">Volg je ons al?</h3>
