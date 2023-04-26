@@ -6,7 +6,7 @@
 </style>
 <main class="bg-white">
 
-<div class="container h-[100vh] pb-[400px]">
+<div class="container min-h-[100vh]">
     <div class="">
         <div>
            <a href="/" class="flex justify-end"> <svg xmlns="http://www.w3.org/2000/svg" width="auto" height="60px" viewBox="0 0 224.806 100.74">
