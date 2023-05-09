@@ -35,7 +35,7 @@ if ( ! $checkout->is_registration_enabled() && $checkout->is_registration_requir
 </section>
 <section>
     <div class="container pt-8 md:pt-10">
-        <a href="/bestellen" class="text-white font-volteregular text-16 underline w-full text-right">Verder bestellen</a>
+        <a href="/bestellen" class="text-white font-volteregular text-16 underline w-full text-right block">Verder bestellen</a>
         <h1 class="text-60 leading-70 text-white text-center font-typebold">Bijna aan tafel!</h1>
     </div>
 </section>
