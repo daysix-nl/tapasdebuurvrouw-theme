@@ -24,12 +24,12 @@ if ( is_wc_endpoint_url( 'order-received' ) ) {
 
 
 <header class="fixed top-0 right-0 left-0 z-10">
-    <!-- <section class="bg-smokeblack px-2 md:px-10 flex flex-row h-[30px] items-center justify-center gap-3">
+    <section class="bg-smokeblack px-2 md:px-10 flex flex-row h-[30px] items-center justify-center gap-3">
         <p class="text-13 leading-13 flex flex-row text-[#9ca3af] font-voltemedium">
-            Gratis bij u thuisbezorgd
+            <!-- Gratis bij u thuisbezorgd -->
         </p>
       
-    </section> -->
+    </section>
     <section class="bg-transparant px-2 md:px-10 flex flex-row justify-between items-center">
         <a href="/">
             <?php include get_template_directory() . '/img/local/logo.php'; ?>
