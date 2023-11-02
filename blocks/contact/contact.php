@@ -1,5 +1,5 @@
 <section class="custom-block <?php the_field('background');?> <?php the_field('padding_top');?> <?php the_field('padding_bottom');?>">
-    <div class="container grid grid-cols-2 gap-5">
+    <div class="container grid grid-cols-1 md:grid-cols-2 gap-5">
         <div class="cols-span-1">
             <h2 class="text-45 leading-45 font-typebold text-white pb-3"><?php the_field("title") ?></h2>
             <div class="form-contact pr-5">
