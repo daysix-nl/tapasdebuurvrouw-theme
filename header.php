@@ -78,7 +78,7 @@ if ( is_wc_endpoint_url( 'order-received' ) ) {
                                         <div class="card-item-bg duration-300 h-full w-full bg-cover bg-center bg-no-repeat" style="background-image: url('<?php the_sub_field('afbeelding', 'option');?>')"></div>
                                         <div class="card-item-overlay absolute top-[30%] left-0 right-0 bottom-0"></div>
                                         <h3 class="absolute bottom-4 text-center w-full text-16 leading-16 font-typebold text-white px-1 card-item-content-first duration-300"><?php the_sub_field('titel', 'option');?></h3>
-                                        <a class="bg-yellow font-volteregular text-12 leading-12 h-2 text-white card-item-content-second duration-300 mb-1 absolute bottom-0 left-[13px] right-[13px] rounded-full flex justify-center items-center p-[2px]" href="<?php the_sub_field('link', 'option');?>" id="<?php the_sub_field('button_id', 'option');?>"><?php the_sub_field('button_tekst', 'option');?></a> 
+                                        <a class="bg-yellow font-volteregular text-12 leading-12 h-2 text-white card-item-content-second duration-300 mb-1 absolute bottom-0 left-[13px] right-[13px] rounded-full flex justify-center items-center p-[2px]" href="<?php the_sub_field('button_link', 'option');?>" id="<?php the_sub_field('button_id', 'option');?>"><?php the_sub_field('button_tekst', 'option');?></a> 
                                     </a>
                                 </div>
                                 <?php
