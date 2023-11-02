@@ -76,7 +76,7 @@
                                 <a href="<?php the_permalink(); ?>" id="bestellen_<?php echo $loop->post->post_title; ?>">
                                     <div class="card-item-bg duration-300 h-full w-full bg-cover bg-center bg-no-repeat" style="background-image: url('<?php echo get_the_post_thumbnail_url($loop->post->ID); ?>')"></div>
                                     <div class="card-item-overlay absolute top-[30%] left-0 right-0 bottom-0"></div>
-                                    <h3 class="absolute bottom-7 text-center w-full text-25 leading-25 font-typebold text-white px-1 card-item-content-first duration-300 break-words"><?php echo $loop->post->post_title; ?></h3>
+                                    <h3 class="absolute bottom-7 text-center w-full text-25 leading-25 font-typebold text-white px-1 card-item-content-first duration-300"><?php echo $loop->post->post_title; ?></h3>
                                     <p class="absolute bottom-5 text-center w-full text-14 leading-14 font-volteregular text-white px-1 card-item-content-first duration-300"><?php the_field('usp');?></p>
                                     <a class="bg-yellow font-volteregular text-16 leading-19 h-3 text-white card-item-content-second duration-300 mb-1 absolute bottom-0 left-3 right-3 rounded-full flex justify-center items-center p-[2px]" href="<?php the_permalink(); ?>" id="bestellen_<?php echo $loop->post->post_title; ?>">Bestellen</a> 
                                 </a>
