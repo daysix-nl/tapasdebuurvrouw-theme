@@ -1,12 +1,12 @@
 <section class="custom-block <?php the_field('background');?> <?php the_field('padding_top');?> <?php the_field('padding_bottom');?>">
     <div class="container grid grid-cols-1 md:grid-cols-2 gap-5">
-        <div class="cols-span-1">
+        <div class="cols-span-1 order-2 md:order-1">
             <h2 class="text-45 leading-45 font-typebold text-white pb-3"><?php the_field("title") ?></h2>
             <div class="form-contact pr-5">
                 <?php echo do_shortcode( '[gravityform id="1" title="false" description="false"]' ); ?>
             </div>
         </div>
-        <div class="cols-span-1 pr-5">
+        <div class="cols-span-1 pr-5 order-1 md:order-2">
             <?php if(get_field("text")): ?>
                 <p class="text-16 leading-26 font-volteregular text-white pb-1.5"><?php the_field("text") ?></p>
             <?php endif; ?>
